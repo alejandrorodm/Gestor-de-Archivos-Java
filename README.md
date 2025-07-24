@@ -1,46 +1,51 @@
-# Gestor de Archivos 
+# 📂 Gestor de Archivos
 
-Este es un programa en Java que permite gestionar archivos de manera eficiente a través de un menú interactivo. Facilita tareas como renombrado, organización, eliminación de publicidad y limpieza de archivos duplicados.
+Este es un programa en Java diseñado para ayudarte a gestionar tus archivos de forma rápida, sencilla y eficiente. A través de un menú interactivo, podrás realizar tareas comunes de organización, limpieza y modificación de archivos, sin complicaciones.
 
-## Características
+¿Tienes tu carpeta llena de archivos mal nombrados, duplicados o desorganizados? Este gestor es para ti.
 
-- **Eliminar** la primera parte del nombre de un archivo según un criterio definido por el usuario.
-- **Sustituir** una parte del nombre de un archivo por otra especificada.
-- **Organizar** archivos en carpetas según su tipo.
-- **Mover** archivos de un determinado tipo a una carpeta específica.
-- **Crea** paquetes de java a partir de los archivos java encontrados. Útil cuando tenemos varios archivos java desperdigados y no los tenemos organizados por su package, pues esta opción lo ordenará.
-- **Eliminar archivos duplicados** en la carpeta de trabajo. Esto se hace internamente con el uso de expresiones regulares.
+---
 
-## Instalación
+## ✨ Características Principales
 
-1. Clona este repositorio:
+- 🔤 **Eliminar** la primera parte del nombre de un archivo según el criterio que definas.
+- 🔁 **Sustituir** fragmentos del nombre de los archivos por el texto que desees.
+- 📁 **Organizar** automáticamente tus archivos en carpetas por tipo (PDF, DOCX, JPG, etc.).
+- 📦 **Mover** archivos de un tipo específico a una carpeta determinada.
+- ☕ **Generar paquetes Java** a partir de archivos `.java` dispersos. Perfecto para estructurar proyectos que no tienen los paquetes bien definidos.
+- 📑 **Eliminar archivos duplicados** en la carpeta actual mediante expresiones regulares.
+- ❌ **Eliminar publicidad** de archivos descargados desde sitios como Wuolah o Gulag.
+
+---
+
+## ⚙️ Instalación
+
+1. Clona el repositorio:
    ```bash
    git clone https://github.com/alejandrorodm/Gestor-de-Archivos-Java
    cd Gestor-de-Archivos-Java
-   ```
+   
 2. Asegúrate de tener Python instalado en tu sistema.
 
-## Uso
-
-Ejecuta el .exe, que proviene del .jar.
+3. Ejecuta el .exe, que proviene del .jar.
 
 ```bash
 python menu.py
 ```
 
-### Opciones del menú:
+## 📋 Opciones del menú:
 
-1. Eliminar la primera parte del nombre de un archivo (tu delimitas cual es esta)
-2. Sustituir la primera parte del nombre de un archivo (tu delimitas cual es esta) por el nombre que quieras
-3. Crear una carpeta para un tipo de archivo y mover todos los archivos que cumplan ese tipo a ella
-4. Crea paquetes de java a partir de los archivos java encontrados para su organizacion
-5. Organiza todos los archivos por carpetas con el nombre del tipo que sean (pdf: todos los pdf, docx: todos los docx...)
-6. Elimina todos los archivos repetidos que haya en la carpeta
-7. Borra wuolah-free y gulag-free (esto lo que hace es borrar del nombre la publicidad que le añaden dichas páginas)
-8. Exit
+1. ✂️ Eliminar la primera parte del nombre de los archivos (definido por ti).
+2. 🔧 Sustituir un fragmento del nombre por otro personalizado.
+3. 🗃️ Crear una carpeta para un tipo de archivo específico y moverlos allí.
+4. 🧱 Crear paquetes Java a partir de los archivos .java encontrados.
+5. 🗂️ Organizar todos los archivos en carpetas por tipo (PDF, DOCX, JPG...).
+6. 🔍 Eliminar archivos duplicados dentro de la carpeta actual.
+7. 🧹 Borrar “wuolah-free” y “gulag-free” del nombre de los archivos (limpieza de publicidad).
+8. ❎ Salir del programa.
 
-## Autor
+## 👨‍💻 Autor:
 
-- **Alejandro Rodríguez*
+- **Alejandro Rodríguez Moreno**
 
 
