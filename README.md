@@ -25,13 +25,9 @@ Este es un programa en Java diseñado para ayudarte a gestionar tus archivos de 
    git clone https://github.com/alejandrorodm/Gestor-de-Archivos-Java
    cd Gestor-de-Archivos-Java
    
-2. Asegúrate de tener Python instalado en tu sistema.
+2. Asegúrate de tener Java instalado.
 
-3. Ejecuta el .exe, que proviene del .jar.
-
-```bash
-python menu.py
-```
+3. Ejecuta el programa.
 
 ## 📋 Opciones del menú:
 
